@@ -1,0 +1,10 @@
+# Visual Studio build output
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.exe
+*.obj
+
