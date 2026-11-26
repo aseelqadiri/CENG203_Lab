@@ -8,6 +8,7 @@ int main()
     do {
         cout << "\nCENG203 - Data Structures" << endl;
         cout << " 6. Week 6 - Trees and BSTs" << endl;
+        cout << " 7. Week 7 - Heaps and priority queues" << endl;
         cout << " 0. Exit" << endl;
         cout << "Choice: ";
         if (!(cin >> choice))
@@ -15,6 +16,7 @@ int main()
 
         switch (choice) {
         case 6:  runWeek06(); break;
+        case 7:  runWeek07(); break;
         case 0:  cout << "Bye." << endl; break;
         default: cout << "Not available in this build." << endl; break;
         }
